@@ -15,6 +15,7 @@ public class Libro {
         this.editorial = editorial;
         this.paginas = paginas;
     }
+
     public void imprimir (){
         System.out.println("El libro es: "+ this.titulo);
         System.out.println("El autor es: "+ this.autor);
@@ -23,9 +24,8 @@ public class Libro {
         System.out.println("------------------------------------------");
     }
 
-    public int imprimir_cubierta(){
+    public int imprimircubierta(){
         return this.paginas+5;
-
     }
 
 }
