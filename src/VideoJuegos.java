@@ -27,10 +27,10 @@ public class VideoJuegos {
     public int getAnio_de_estreno() {
         return anio_de_estreno;
     }
+
     //Vacio
     public VideoJuegos() {
     }
-
     //Setter
     public void setTitulo(String titulo) {
         this.titulo = titulo;
@@ -47,10 +47,14 @@ public class VideoJuegos {
 
     //metodos personalizados
     public void imprimir() {
+        System.out.println("------------------------------------------");
+        System.out.println("                 VideoJuegos                ");
         System.out.println("Titulo: " + this.titulo);
         System.out.println("Modo_de_Juego: " + this.Modo_de_Juego);
         System.out.println("Plataforma: " + this.plataforma);
         System.out.println("Anio de estreno: " + this.anio_de_estreno);
+        System.out.println("------------------------------------------");
+        System.out.println();
 
     }
 

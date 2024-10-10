@@ -17,10 +17,14 @@ public class Series {
 
     //metodos personalizados
     public void imprimirs() {
+        System.out.println("------------------------------------------");
+        System.out.println("                    Series                ");
         System.out.println("Titulo: " + this.titulo);
         System.out.println("Temporadas: " + this.Temporadas);
         System.out.println("Genero: " + this.genero);
         System.out.println("Anio de estreno: " + this.anio_de_estreno);
+        System.out.println("------------------------------------------");
+        System.out.println();
     }
 
     //getters
@@ -39,8 +43,8 @@ public class Series {
     //Vacio
     public  Series (){
     }
-    //setters
 
+    //setters
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
